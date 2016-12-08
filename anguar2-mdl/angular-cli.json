@@ -1,6 +1,6 @@
 {
   "project": {
-    "version": "1.0.0-beta.21",
+    "version": "1.0.0",
     "name": "anguar2-mdl"
   },
   "apps": [
@@ -17,13 +17,13 @@
       "tsconfig": "tsconfig.json",
       "prefix": "app",
       "mobile": false,
-"styles": [
-  "../node_modules/material-design-lite/material.css",
-  "../node_modules/material-design-icons/iconfont/material-icons.css"
-],
-"scripts": [
-  "../node_modules/material-design-lite/material.min.js"
-],
+      "styles": [
+        "../node_modules/material-design-lite/material.css",
+        "../node_modules/material-design-icons/iconfont/material-icons.css"
+      ],
+      "scripts": [
+        "../node_modules/material-design-lite/material.min.js"
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
